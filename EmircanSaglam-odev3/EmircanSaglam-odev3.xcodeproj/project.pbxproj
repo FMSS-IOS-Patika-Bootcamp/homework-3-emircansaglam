@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F258CA2628DF5C62006B8A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA2528DF5C62006B8A39 /* AppDelegate.swift */; };
+		F258CA2828DF5C62006B8A39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA2728DF5C62006B8A39 /* SceneDelegate.swift */; };
+		F258CA2A28DF5C62006B8A39 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA2928DF5C62006B8A39 /* TableViewController.swift */; };
+		F258CA2D28DF5C62006B8A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F258CA2B28DF5C62006B8A39 /* Main.storyboard */; };
+		F258CA3028DF5C62006B8A39 /* EmircanSaglam_odev3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F258CA2E28DF5C62006B8A39 /* EmircanSaglam_odev3.xcdatamodeld */; };
+		F258CA3228DF5C63006B8A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F258CA3128DF5C63006B8A39 /* Assets.xcassets */; };
+		F258CA3528DF5C63006B8A39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F258CA3328DF5C63006B8A39 /* LaunchScreen.storyboard */; };
+		F258CA3D28DFC999006B8A39 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA3C28DFC999006B8A39 /* TableViewCell.swift */; };
+		F258CA3F28DFCD9F006B8A39 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA3E28DFCD9F006B8A39 /* TableViewModel.swift */; };
+		F258CA4128DFCE44006B8A39 /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA4028DFCE44006B8A39 /* TableModel.swift */; };
+		F258CA4328DFD0C1006B8A39 /* TableEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA4228DFD0C1006B8A39 /* TableEntity.swift */; };
+		F258CA4A28DFE950006B8A39 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA4928DFE950006B8A39 /* CollectionViewController.swift */; };
+		F258CA4C28DFEE06006B8A39 /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA4B28DFEE06006B8A39 /* CollectionViewModel.swift */; };
+		F258CA4F28DFEF73006B8A39 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F258CA4E28DFEF73006B8A39 /* Kingfisher */; };
+		F258CA5128DFF068006B8A39 /* CollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA5028DFF068006B8A39 /* CollectionModel.swift */; };
+		F258CA5428DFF08B006B8A39 /* CollectionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA5328DFF08B006B8A39 /* CollectionEntity.swift */; };
+		F258CA5628DFFABC006B8A39 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA5528DFFABC006B8A39 /* CollectionViewCell.swift */; };
+		F258CA5C28E07298006B8A39 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA5B28E07298006B8A39 /* ToDoViewController.swift */; };
+		F258CA5E28E072EB006B8A39 /* ToDoAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA5D28E072EB006B8A39 /* ToDoAddViewController.swift */; };
+		F258CA6B28E0915C006B8A39 /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA6A28E0915C006B8A39 /* ToDoTableViewCell.swift */; };
+		F258CA6D28E09BC8006B8A39 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA6C28E09BC8006B8A39 /* DetailViewController.swift */; };
+		F258CA7328E09F01006B8A39 /* ToDoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA7228E09F01006B8A39 /* ToDoListModel.swift */; };
+		F258CA7528E09F22006B8A39 /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258CA7428E09F21006B8A39 /* ToDoListViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F258CA2228DF5C62006B8A39 /* EmircanSaglam-odev3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EmircanSaglam-odev3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F258CA2528DF5C62006B8A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F258CA2728DF5C62006B8A39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F258CA2928DF5C62006B8A39 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F258CA2C28DF5C62006B8A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F258CA2F28DF5C62006B8A39 /* EmircanSaglam_odev3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmircanSaglam_odev3.xcdatamodel; sourceTree = "<group>"; };
+		F258CA3128DF5C63006B8A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F258CA3428DF5C63006B8A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F258CA3628DF5C64006B8A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F258CA3C28DFC999006B8A39 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F258CA3E28DFCD9F006B8A39 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		F258CA4028DFCE44006B8A39 /* TableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
+		F258CA4228DFD0C1006B8A39 /* TableEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableEntity.swift; sourceTree = "<group>"; };
+		F258CA4928DFE950006B8A39 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		F258CA4B28DFEE06006B8A39 /* CollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
+		F258CA5028DFF068006B8A39 /* CollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionModel.swift; sourceTree = "<group>"; };
+		F258CA5328DFF08B006B8A39 /* CollectionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionEntity.swift; sourceTree = "<group>"; };
+		F258CA5528DFFABC006B8A39 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F258CA5B28E07298006B8A39 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		F258CA5D28E072EB006B8A39 /* ToDoAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAddViewController.swift; sourceTree = "<group>"; };
+		F258CA6A28E0915C006B8A39 /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		F258CA6C28E09BC8006B8A39 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F258CA7228E09F01006B8A39 /* ToDoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListModel.swift; sourceTree = "<group>"; };
+		F258CA7428E09F21006B8A39 /* ToDoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F258CA1F28DF5C62006B8A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F258CA4F28DFEF73006B8A39 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F258CA1928DF5C62006B8A39 = {
+			isa = PBXGroup;
+			children = (
+				F258CA2428DF5C62006B8A39 /* EmircanSaglam-odev3 */,
+				F258CA2328DF5C62006B8A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F258CA2328DF5C62006B8A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA2228DF5C62006B8A39 /* EmircanSaglam-odev3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F258CA2428DF5C62006B8A39 /* EmircanSaglam-odev3 */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA4828DFE144006B8A39 /* Resources */,
+				F258CA5728E00407006B8A39 /* CollectionListModule */,
+				F258CA4428DFE078006B8A39 /* TableListModule */,
+				F258CA2528DF5C62006B8A39 /* AppDelegate.swift */,
+				F258CA2728DF5C62006B8A39 /* SceneDelegate.swift */,
+				F258CA3628DF5C64006B8A39 /* Info.plist */,
+				F258CA2E28DF5C62006B8A39 /* EmircanSaglam_odev3.xcdatamodeld */,
+				F258CA6E28E09E80006B8A39 /* ToDoListModule */,
+			);
+			path = "EmircanSaglam-odev3";
+			sourceTree = "<group>";
+		};
+		F258CA4428DFE078006B8A39 /* TableListModule */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA4728DFE0DB006B8A39 /* Model */,
+				F258CA4528DFE09F006B8A39 /* View */,
+				F258CA4628DFE0C0006B8A39 /* VM */,
+			);
+			path = TableListModule;
+			sourceTree = "<group>";
+		};
+		F258CA4528DFE09F006B8A39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA2928DF5C62006B8A39 /* TableViewController.swift */,
+				F258CA3C28DFC999006B8A39 /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F258CA4628DFE0C0006B8A39 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA3E28DFCD9F006B8A39 /* TableViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		F258CA4728DFE0DB006B8A39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA4028DFCE44006B8A39 /* TableModel.swift */,
+				F258CA4228DFD0C1006B8A39 /* TableEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F258CA4828DFE144006B8A39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA2B28DF5C62006B8A39 /* Main.storyboard */,
+				F258CA3128DF5C63006B8A39 /* Assets.xcassets */,
+				F258CA3328DF5C63006B8A39 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F258CA5728E00407006B8A39 /* CollectionListModule */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA5828E00415006B8A39 /* Model */,
+				F258CA5928E00428006B8A39 /* View */,
+				F258CA5A28E0043F006B8A39 /* VM */,
+			);
+			path = CollectionListModule;
+			sourceTree = "<group>";
+		};
+		F258CA5828E00415006B8A39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA5028DFF068006B8A39 /* CollectionModel.swift */,
+				F258CA5328DFF08B006B8A39 /* CollectionEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F258CA5928E00428006B8A39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA4928DFE950006B8A39 /* CollectionViewController.swift */,
+				F258CA5528DFFABC006B8A39 /* CollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F258CA5A28E0043F006B8A39 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA4B28DFEE06006B8A39 /* CollectionViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		F258CA6E28E09E80006B8A39 /* ToDoListModule */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA7128E09EC0006B8A39 /* Model */,
+				F258CA7028E09EBB006B8A39 /* View */,
+				F258CA6F28E09EB3006B8A39 /* VM */,
+				F258CA6C28E09BC8006B8A39 /* DetailViewController.swift */,
+				F258CA5D28E072EB006B8A39 /* ToDoAddViewController.swift */,
+			);
+			path = ToDoListModule;
+			sourceTree = "<group>";
+		};
+		F258CA6F28E09EB3006B8A39 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA7428E09F21006B8A39 /* ToDoListViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		F258CA7028E09EBB006B8A39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA5B28E07298006B8A39 /* ToDoViewController.swift */,
+				F258CA6A28E0915C006B8A39 /* ToDoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F258CA7128E09EC0006B8A39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F258CA7228E09F01006B8A39 /* ToDoListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F258CA2128DF5C62006B8A39 /* EmircanSaglam-odev3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F258CA3928DF5C64006B8A39 /* Build configuration list for PBXNativeTarget "EmircanSaglam-odev3" */;
+			buildPhases = (
+				F258CA1E28DF5C62006B8A39 /* Sources */,
+				F258CA1F28DF5C62006B8A39 /* Frameworks */,
+				F258CA2028DF5C62006B8A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EmircanSaglam-odev3";
+			packageProductDependencies = (
+				F258CA4E28DFEF73006B8A39 /* Kingfisher */,
+			);
+			productName = "EmircanSaglam-odev3";
+			productReference = F258CA2228DF5C62006B8A39 /* EmircanSaglam-odev3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F258CA1A28DF5C62006B8A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F258CA2128DF5C62006B8A39 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = F258CA1D28DF5C62006B8A39 /* Build configuration list for PBXProject "EmircanSaglam-odev3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F258CA1928DF5C62006B8A39;
+			packageReferences = (
+				F258CA4D28DFEF73006B8A39 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = F258CA2328DF5C62006B8A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F258CA2128DF5C62006B8A39 /* EmircanSaglam-odev3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F258CA2028DF5C62006B8A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F258CA3528DF5C63006B8A39 /* LaunchScreen.storyboard in Resources */,
+				F258CA3228DF5C63006B8A39 /* Assets.xcassets in Resources */,
+				F258CA2D28DF5C62006B8A39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F258CA1E28DF5C62006B8A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F258CA4A28DFE950006B8A39 /* CollectionViewController.swift in Sources */,
+				F258CA7528E09F22006B8A39 /* ToDoListViewModel.swift in Sources */,
+				F258CA3D28DFC999006B8A39 /* TableViewCell.swift in Sources */,
+				F258CA5428DFF08B006B8A39 /* CollectionEntity.swift in Sources */,
+				F258CA4328DFD0C1006B8A39 /* TableEntity.swift in Sources */,
+				F258CA3028DF5C62006B8A39 /* EmircanSaglam_odev3.xcdatamodeld in Sources */,
+				F258CA6B28E0915C006B8A39 /* ToDoTableViewCell.swift in Sources */,
+				F258CA4C28DFEE06006B8A39 /* CollectionViewModel.swift in Sources */,
+				F258CA5C28E07298006B8A39 /* ToDoViewController.swift in Sources */,
+				F258CA6D28E09BC8006B8A39 /* DetailViewController.swift in Sources */,
+				F258CA2A28DF5C62006B8A39 /* TableViewController.swift in Sources */,
+				F258CA3F28DFCD9F006B8A39 /* TableViewModel.swift in Sources */,
+				F258CA5628DFFABC006B8A39 /* CollectionViewCell.swift in Sources */,
+				F258CA5128DFF068006B8A39 /* CollectionModel.swift in Sources */,
+				F258CA7328E09F01006B8A39 /* ToDoListModel.swift in Sources */,
+				F258CA5E28E072EB006B8A39 /* ToDoAddViewController.swift in Sources */,
+				F258CA2628DF5C62006B8A39 /* AppDelegate.swift in Sources */,
+				F258CA4128DFCE44006B8A39 /* TableModel.swift in Sources */,
+				F258CA2828DF5C62006B8A39 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F258CA2B28DF5C62006B8A39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F258CA2C28DF5C62006B8A39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F258CA3328DF5C63006B8A39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F258CA3428DF5C63006B8A39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F258CA3728DF5C64006B8A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F258CA3828DF5C64006B8A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F258CA3A28DF5C64006B8A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = STSA5D224N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EmircanSaglam-odev3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emircansaglam.EmircanSaglam-odev3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F258CA3B28DF5C64006B8A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = STSA5D224N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EmircanSaglam-odev3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emircansaglam.EmircanSaglam-odev3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F258CA1D28DF5C62006B8A39 /* Build configuration list for PBXProject "EmircanSaglam-odev3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F258CA3728DF5C64006B8A39 /* Debug */,
+				F258CA3828DF5C64006B8A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F258CA3928DF5C64006B8A39 /* Build configuration list for PBXNativeTarget "EmircanSaglam-odev3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F258CA3A28DF5C64006B8A39 /* Debug */,
+				F258CA3B28DF5C64006B8A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F258CA4D28DFEF73006B8A39 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F258CA4E28DFEF73006B8A39 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F258CA4D28DFEF73006B8A39 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		F258CA2E28DF5C62006B8A39 /* EmircanSaglam_odev3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F258CA2F28DF5C62006B8A39 /* EmircanSaglam_odev3.xcdatamodel */,
+			);
+			currentVersion = F258CA2F28DF5C62006B8A39 /* EmircanSaglam_odev3.xcdatamodel */;
+			path = EmircanSaglam_odev3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F258CA1A28DF5C62006B8A39 /* Project object */;
+}
